@@ -1,0 +1,69 @@
+{
+    "Vietnamese": {
+        "porfolio-languges": {
+            "download-cv": "Tải xuống CV",
+            "vie": "Tiếng Việt",
+            "eng": "Tiếng Anh"
+        },
+        "nav-menu": {
+            "home": "Trang chủ",
+            "about": "Chi tiết",
+            "resume": "Hồ sơ cá nhân",
+            "portfolio": "Dự án",
+            "contact": "Liên hệ"
+        },
+        "hero-container": {
+            "i_am": "Tôi là",
+            "details": "Lập trình viên, Freelancer, Youtuber"
+        },
+        "about": {
+            "title": "Chi tiết",
+            "desc": "Tôi là một lập trình viên Back-End, người đang thiết kế API và cấu trúc dữ liệu cho một công ty thương mại điện tử thịt sạch lớn tại Việt Nam. Tôi thường xuyên tự thử thách bản thân bằng cách tìm ra phương pháp tốt nhất để cải thiện trải nghiệm người dùng. Tôi không chỉ thích chứng tỏ mình có thể làm được mà đôi khi nó còn giúp công ty xây dựng hiệu quả hoạt động tốt hơn.",
+            "desc2": "Tôi được sinh ra và lớn lên trong một gia đình nhỏ làm nông tại đông nam Việt Nam. Là kiểu người ENFP, tôi thích đàn hát, du lịch, leo núi, kết bạn, sáng tạo trong công việc và lan tỏa tích cực đến mọi người xung quanh. Khi rảnh, tôi thường làm video về du lịch và dạy lập trình cho mọi người trên Youtube, chính những điều đơn giản này đã giúp tôi có thêm nhiều bạn và giảm tải áp lực công việc.",
+            "role-title": "Lập trình viên Back-End",
+            "role-desc": "Chuyên ngành của tôi là kỹ sư thiết kế Website, tại đây dạy cả hai mảng Font-End và Back-End. Nhưng, Tôi yêu thích công việc Back-End và đã có 5+ năm kinh nghiệm về lĩnh vực này.",
+            "birthday": "03/12/1998",
+            "website": "http://tudinhblog.com",
+            "phone": "+84 975089502",
+            "address": "Nam Sơn, Quang Trung, Thống Nhất, Đồng Nai, Việt Nam",
+            "age": 24,
+            "degree": "Kỹ sư thiết kế Website",
+            "email": "tudinhacoustic@gmail.com",
+            "freelance": "Sẵn sàng"
+        },
+        "facts": {
+            "title": "Sự thật",
+            "desc": "Tôi đang làm việc cho một công ty thương mại điện tử bán thịt sạch số một Việt Nam, nơi nhận khoảng 100 ngàn người truy cập mỗi giờ và trên 10 ngàn đơn mỗi ngày. Hơn thế nữa, Tôi là người tiên phong trong công việc về cả công nghệ và cấu trúc giữ liệu, nhưng phía sau những thành công thì cũng có vô số thất bại đáng học hỏi.",
+            "customer-number": 1120000,
+            "active-user-number": 2000,
+            "order-number": 10000,
+            "member-number": 5
+        },
+        "Resume": {
+            "title": "Tóm tắt bản thân",
+            "desc": "Một câu nói trong tựa phim hoạt hình Mushoku Tensei của nhân vật già Rudeus nói rằng “Khi ta sống thì không biết quý trọng những người thân bên cạnh, và khi họ mất đi rồi thì ta mới cảm thấy hối tiếc”, câu nói này mặc dù đơn giản nhưng lại chứa đầy đau thương và sự hối tiếc khi phải chứng kiến người thân mất đi nhưng bản thân chúng ta chưa kịp làm gì ý nghĩa cho họ. Vì thế, chính những phương châm này đã làm cho tôi phải cố gắng không ngừng để mong bản thân để vững chắc hơn không chỉ an toàn cho cá nhân mà còn cho cả gia đình và xã hội."
+        },
+        "Sumary": {
+            "title": "Sumary",
+            "name": "TU DINH",
+            "desc": "Với 5+ năm kinh nghiệm là nhà phát triển Back-End, tôi có thể thiết kế và phát triển cấu trúc API/dữ liệu từ ý tưởng ban đầu đến cuối cùng, sản phẩm có thể hoàn thành trau chuối và tỉ mỉ.",
+            "adress": "Thống Nhất, Đồng Nai, Việt Nam",
+            "phone": "(+84) 975089502",
+            "email": "tudinhacoustic@gmail.com"
+        }
+    },
+    "English": {
+        "porfolio-languges": {
+            "download-cv": "Download CV",
+            "vie": "Vietnamese",
+            "eng": "English"
+        },
+        "nav-menu": {
+            "home": "Home",
+            "about": "About",
+            "resume": "Resume",
+            "portfolio": "Portfolio",
+            "contact": "Contact"
+        }
+    }
+  }

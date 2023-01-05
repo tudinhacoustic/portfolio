@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>iPortfolio Bootstrap Template - Index</title>
+  <title class="lang lang-en">Portfolio - Dinh Nguyen Cam Tu </title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/website-icon.png" rel="icon">
+  <link href="assets/img/website-icon.png" rel="website-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -47,9 +47,14 @@
       <div class="profile">
         <img src="assets/img/PROFILE_1.png" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Tu Dinh</a></h1>
+        <div class="mt-3 text-center" id="portfolio-languages">
+          <a id="download-cv" href="https://drive.google.com/drive/folders/1OTFLV3Z3IAiW5sbKZZqAZBiItjKRFNCf?usp=sharing" target="_blank">Download CV</a>|
+          <a id="vie" type="button" onclick="VietnameseVersion();">Vietnamese</a>|
+          <a id="eng" type="button" onclick="EnglishVersion();">English</a>
+        </div>
         <div class="social-links mt-3 text-center">
           <a href="https://youtube.com/tudinh" class="youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
-          <a href="https://www.facebook.com/tudinhacoustic" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+          <!-- <a href="https://www.facebook.com/tudinhacoustic" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a> -->
           <a href="https://www.linkedin.com/in/tudinhacoustic" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
           <a href="http://tudinhblog.com" class="link"><i class="bx bx-link" target="_blank"></i></a>
           <a href="mailto:tudinhacoustic@gmail.com" class="envelope"><i class="bx bx-envelope" target="_blank"></i></a>
@@ -58,12 +63,11 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span id="nav-menu-home">Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span id="nav-menu-about">About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span id="nav-menu-resume">Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span id="nav-menu-portfolio">Portfolio</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span id="nav-menu-contact">Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -72,8 +76,8 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
-      <h1>Tu Dinh</h1>
-      <p>I'm <span class="typed" data-typed-items="Developer, Freelancer, Youtuber"></span></p>
+      <h1>Dinh Nguyen Cam Tu</h1>
+      <p id="i-am">I'm <span class="typed" data-typed-items="Developer, Freelancer, Youtuber"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -84,8 +88,9 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>About</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2 id="about-title">About</h2>
+          <p id="about-desc">I am a Back-End developer, designing the API and data structures for a selling fresh pork e-commerce company in Viet Nam.
+          I always find the best way to improve the user's experience. I do it for the challenge. Not only do I like proving I can do it, but sometimes it helps a company to build a better performance.</p>
         </div>
 
         <div class="row">
@@ -93,32 +98,32 @@
             <img src="assets/img/PROFILE_2.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>BackEnd Developer</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            <h3 id="about-role-title">Back-End Developer</h3>
+            <p class="fst-italic" id="about-role-desc">
+              My College major is Web engineering, which teaches both Front-End and Back-End development. I love Back-End jobs, and I have more than five years of experience in this field.
             </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>3 Dec 1998</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>http://tudinhblog.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+84 975089502</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Ho Chi Minh, Viet Nam</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="about-birthday-title">Birthday:</strong> <span id="about-birthday">3 Dec 1998</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="about-website-title">Website:</strong> <span id="about-website">http://tudinhblog.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="about-phone-title">Phone:</strong> <span id="about-phone">+84 975089502</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="about-address-title">Address:</strong> <span id="about-address">Bac Son, Quang Trung, Thong Nhat, Dong Nai, Viet Nam</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Website Engineer</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>tudinhacoustic@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="about-age-title">Age:</strong> <span id="about-age">24</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="about-degree-title">Degree:</strong> <span id="about-degree">Website Engineer</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="about-email-title">Email:</strong> <span id="about-email">tudinhacoustic@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="about-freelance-title">Freelance:</strong> <span id="about-freelance">Available</span></li>
                 </ul>
               </div>
             </div>
-            <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+            <p id="about-desc2">
+              I was born in a small agricultural family in Southeast Viet Nam.
+              As a type of ENFP person, I like guitar, singing, traveling, making friends, creative working, and spreading positivity to everyone.
+              What’s more, I approximately make videos about travel experiences and teach programming languages to everyone on Youtube, these little things that help me get more friends and decrease work pressure.
             </p>
           </div>
         </div>
@@ -131,8 +136,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Facts</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2 id="facts-title">Facts</h2>
+          <p id="facts-desc">I am working at a selling fresh pork e-commerce company which is the top brand in Viet Nam, so It receives roughly 100,000 active users per hour and more than 10,000 orders per day. Moreover, Although I am a trailblazer in the new field of technology and data structure at Greenfeed company, I also have strategies for learning from failure after these success stories.</p>
         </div>
 
         <div class="row no-gutters">
@@ -140,32 +145,32 @@
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
             <div class="count-box">
               <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong> consequuntur quae</p>
+              <span data-purecounter-start="0" data-purecounter-end="1120000" data-purecounter-duration="1" class="purecounter"></span>
+              <p id="count-box-emoji-1"><strong>Customer</strong> accounts</p>
             </div>
           </div>
-
+          
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="2000" data-purecounter-duration="1" class="purecounter"></span>
+              <p id="count-box-emoji-2"><strong>Active users</strong> per minute</p>
+            </div>
+          </div>
+          
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+              <i class="bi bi-box2-heart"></i>
+              <span data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="1" class="purecounter"></span>
+              <p id="count-box-emoji-3"><strong>Lovely orders</strong> per day</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+              <i class="bi bi-person-hearts"></i>
+              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+              <p id="count-box-emoji-4"><strong>Team</strong> members</p>
             </div>
           </div>
 
@@ -179,8 +184,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Skills</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2 id="skills-title">Skills</h2>
+          <p id="skills-desc">Important skills that a BackEnd developer must have.</p>
         </div>
 
         <div class="row skills-content">
@@ -222,7 +227,7 @@
             <div class="progress">
               <span class="skill">Redis/Rabbit-MQ <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -245,89 +250,100 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2 id="resume-title">Resume</h2>
+          <p id="resume-desc">A quote in the Mushoku Tensei anime movie of an old man named Rudeus said: “I did not know how to appreciate the people around me when they lived, and I feel regrettable that I did not do a valuable thing before they passed away”. This quote is quite simple, but it contains many sad emotions. Because of this, I have tried my best to improve my knowledge to cement the relationships to protect not only myself but also my family and society.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 class="resume-title" id="sumary-title">Sumary</h3>
             <div class="resume-item pb-0">
-              <h4>Tu Dinh</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <h4 id="sumary-name">Tu Dinh</h4>
+              <p id="sumary-desc"><em>Innovative and deadline-driven Back-End Developer with 5+ years of experience designing and developing API/data structures from initial concept to final, polished deliverable.</em></p>
               <ul>
-                <li>Thong Nhat, Dong Nai City, Viet Nam</li>
-                <li>(+84) 975089502</li>
-                <li>tudinhacoustic@gmail.com</li>
+                <li id="sumary-address">Thong Nhat, Dong Nai City, Viet Nam</li>
+                <li id="sumary-phone">(+84) 975089502</li>
+                <li id="sumary-email">tudinhacoustic@gmail.com</li>
               </ul>
             </div>
 
-            <h3 class="resume-title">Education</h3>
+            <h3 class="resume-title" id="education-title">Education</h3>
             <div class="resume-item">
-              <h4>Website Engineer</h4>
+              <h4 id="education-role">WEBSITE ENGINEER</h4>
               <h5>2016 - 2018</h5>
-              <p><em>FPT HCM, Nam Ky Khoi Nghia, District 3, Ho Chi Minh City, Viet Nam</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+              <p><em id="education-address">FPT HCM, Nam Ky Khoi Nghia, District 3, Ho Chi Minh City, Viet Nam</em></p>
+              <p id="education-desc">In this college, I learned many valuable lessons, and I luckily have lots of good friends who help me improve. Finally, I got a good grade of 7.9 in total.</p>
             </div>
 
-            <h3 class="resume-title">Achievement</h3>
+            <h3 class="resume-title" id="achievement-title">Achievement</h3>
             <div class="resume-item">
-              <h4>Mount Kinabalu Certificate</h4>
-              <h5>08/07/2022</h5>
-              <p><em>Kinabalu Park, Kota Kinabalu, Sabah, Malaysia</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+              <h4 id="achievement-title-1">MOUNT KINABALU CERTIFICATE</h4>
+              <h5 id="achievement-date-1">08/07/2022</h5>
+              <p><em id="achievement-address-1">Kinabalu Park, Kota Kinabalu, Sabah, Malaysia</em></p>
+              <p id="achievement-desc-1">Mount Kinabalu is the highest mountain in Malaysia. With an elevation of 4,095 meters, it is a third-highest peak of an island on Earth, and the 20th most prominent mountain in the world by topographic prominence. Finally, I had successfully reached the top of Kinabalu mountain.</p>
             </div>
             <div class="resume-item">
-              <h4>Mount Fansipan Certificate</h4>
-              <h5>31/05/2022</h5>
-              <p><em>Sapa, Lao Cai, Viet Nam</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+              <h4 id="achievement-title-2">MOUNT FANSIPAN CERTIFICATE</h4>
+              <h5 id="achievement-date-2">31/05/2022</h5>
+              <p><em id="achievement-address-2">Sapa, Lao Cai, Viet Nam</em></p>
+              <p id="achievement-desc-2">Mount Fansipan is a mountain in Viet Nam, and the height of the mountain is 3,147 meters. It is the highest mountain in the Indochinese Peninsula, hence its nickname "the Roof of Indochina". Luckily, I had no difficulty reaching the top of Fansipan mountain during severe weather in May.</p>
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
+            <h3 class="resume-title" id="experience-title">Professional Experience</h3>
             <div class="resume-item">
-              <h4>Senior BackEnd Developer</h4>
-              <h5>01/2022 - Present</h5>
-              <p><em>Centec Tower, District 3, Ho Chi Minh City, Viet Nam</em></p>
-              <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              <h4 id="experience-role-1">SENIOR BACK-END DEVELOPER</h4>
+              <h5 id="experience-date-1">01/2022 - Present</h5>
+              <p><em id="experience-address-1">Centec Tower, District 3, Ho Chi Minh City, Viet Nam</em></p>
+              <ul id="experience-details-1">
+                <li>Mentor in the API design, Back-end development, and implementation of the optimizable query databases.</li>
+                <li>Propose and develop automation sending messages by Zalo Official Account, tracking sales off, pricing of products, order timing, meat shop locations, and notification of promotions.</li>
+                <li>Propose and develop new technology to be more fit, saving coding time, getting little risks, easy checking, and preserving server memory.</li>
+                <li>Oversee the improving system of the Greenfeed company from 100 - 1 million customer users.</li>
+                <li>Participate in the development of many important projects with partners: Solomon, SAP, Momo, Zalo Pay, Shopee Pay, etc.</li>
+                <li>Participate in the development of many important platforms: Docker Images, Docker Registry, Docker swarm, Nginx.</li>
               </ul>
             </div>
             <div class="resume-item">
-              <h4>Junior BackEnd Developer</h4>
-              <h5>10/2019 - 12/2021</h5>
-              <p><em>Empress Tower, District 1, Ho Chi Minh City, Viet Nam</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              <h4 id="experience-role-2">JUNIOR BACK-END DEVELOPER</h4>
+              <h5 id="experience-date-2">10/2019 - 12/2021</h5>
+              <p><em id="experience-address-2">Empress Tower, District 1, Ho Chi Minh City, Viet Nam</em></p>
+              <ul id="experience-details-2">
+                <li>Developed numerous marketing programs (promotions, order functions, presentations, report data, and customer information).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure.</li>
+                <li>Recommended and designed API, optimization query databases, and promotions.</li>
+                <li>Participated in training about coding, system, and logical mindset.</li>
+                <li>Created 5+ programs in a month.</li>
               </ul>
             </div>
             <div class="resume-item">
-              <h4>Junior BackEnd Developer</h4>
-              <h5>04/2019 - 09/2019</h5>
-              <p><em>Tran Hung Dao, District 5, Ho Chi Minh City, Viet Nam</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              <h4 id="experience-role-3">JUNIOR BACK-END DEVELOPER</h4>
+              <h5 id="experience-date-3">04/2019 - 09/2019</h5>
+              <p><em id="experience-address-3">Tran Hung Dao, District 5, Ho Chi Minh City, Viet Nam</em></p>
+              <ul id="experience-details-3">
+                <li>Participated in maintaining and developing outsourcing.</li>
+                <li>Joined up to 2 projects, learned, and got much experience.</li>
+                <li>Recommended and consulted with clients on the most appropriate architecture.</li>
+                <li>Maintained and created 5+ programs in a month.</li>
               </ul>
             </div>
             <div class="resume-item">
-              <h4>Internship</h4>
-              <h5>10/2018 - 03/2019</h5>
-              <p><em>Tran Hung Dao, District 5, Ho Chi Minh City, Viet Nam</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              <h4 id="experience-role-4">FRONT-END INTERNSHIP</h4>
+              <h5 id="experience-date-4">10/2018 - 03/2019</h5>
+              <p><em id="experience-address-4">Central 2, Nguyen Huu Canh, District Tan Binh, Ho Chi Minh City, Viet Nam</em></p>
+              <ul id="experience-details-4">
+                <li>Worked at a start-up company that provides e-wallets for a minuscule customer in the US.</li>
+                <li>Worked as a Front-End developer using ReactJS.</li>
+                <li>Participated in a group of 5 members.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4 id="experience-role-5">FREELANCE - LESSON PREPARATION</h4>
+              <h5 id="experience-date-5">02/2018 - 08/2018</h5>
+              <p><em id="experience-address-5">At home</em></p>
+              <ul id="experience-details-5">
+                <li>Created 1 lesson per day, including a PowerPoint slide, a question file with the answer, and a demo file with the explanation.</li>
+                <li>Worked with a professor, a part-time job.</li>
               </ul>
             </div>
           </div>
@@ -341,68 +357,50 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2 id="portfolio-title">Portfolio</h2>
+          <p id="portfolio-desc">Success comes not only in 1-2 days. It may take more years or a lifetime. Besides finishing the work progress time, I spend a lot of time studying, speed optimization, and decreasing unnecessary memory. What’s more, my company system is improving, this way leads to me knowing much about not only coding but also managing the packages. By doing this, I have more experience in choosing the necessary technologies.</p>
         </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-api-performance">API Performance</li>
+              <!-- <li data-filter=".filter-app">API Perfomance</li> -->
               <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
+              <!-- <li data-filter=".filter-card">Card</li> -->
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+          <!--API Perfomance-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-api-performance">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-api-1.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-api-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="API 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-api-performance">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/img-cdn-gif.gif" class="img-fluid" alt="" id="video-gif">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/img-cdn-gif.gif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="API 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <!--App-->
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-app-ios-1.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/portfolio-app-ios-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -410,29 +408,70 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-app-android-1.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/portfolio-app-android-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-app-android-2.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/portfolio-app-android-2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-app-android-3.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/portfolio-app-android-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 4"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-app-android-4.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-app-android-4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 5"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-app-android-5.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-app-android-5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 6"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/gif.gif" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/gif.gif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 6"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!--Web-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-web-1.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-web-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -440,155 +479,53 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-web-2.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/portfolio-web-2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-        </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-web-3.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-web-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-web-4.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-web-4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 4"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Web-gif.gif" class="img-fluid" alt="" id="video-gif">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Web-gif.gif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 4"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
 
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-binoculars"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2 id="contact-title">Contact</h2>
+          <p id="contact-desc">Follow the information below, or leave a message.</p>
         </div>
 
         <div class="row" data-aos="fade-in">
@@ -598,50 +535,51 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Bac Son, Quang Trung, Thong Nhat, Dong Nai, Viet Nam</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>tudinhacoustic@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+84 975089502</p>
               </div>
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1384.6014523649176!2d107.17354457444!3d11.020288132724682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174fa0ba5d4b63f%3A0xa21a9c7374c9afd6!2zTmjDoCB0aOG7nSBUaGFuaCBTxqFuLCBRTDIwLCBRdWFuZyBUcnVuZywgVGjhu5FuZyBOaOG6pXQsIMSQ4buTbmcgTmFpLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1672806299441!5m2!1sen!2s" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
 
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="#" method="post" role="form" class="form php-email-form" id="telegram-contact-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your beautiful name">
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your exactly email" required>
                 </div>
               </div>
               <div class="form-group">
                 <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Your subject">
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <textarea class="form-control" name="message" rows="10" placeholder="Input your message"></textarea>
               </div>
+              <div id="get-message"></div>
               <div class="my-3">
-                <div class="loading">Loading</div>
+                <!-- <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Your message has been sent. Thank you!</div> -->
+                  <!-- <div class="error-message" id="error-message">Xin chào</div> -->
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
@@ -665,7 +603,8 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a><br/>
+        Modified by <a href="http://tudinhblog.com/" target="_blank">Tu Dinh</a>
       </div>
     </div>
   </footer><!-- End  Footer -->
@@ -681,11 +620,11 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="assets/js/sendTelegram.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script src="assets/js/detectLanguage.js"></script>
 </body>
 
 </html>

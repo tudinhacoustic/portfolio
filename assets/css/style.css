@@ -228,7 +228,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/PROFILE_BG.png") top center;
   background-size: cover;
 }
 
@@ -475,7 +475,7 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "Poppins", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
@@ -1093,6 +1093,18 @@ section {
   text-align: center;
   font-size: 13px;
   color: #eaebf0;
+}
+
+#video-gif {
+  height: 313px;
+}
+
+#portfolio-languages a {
+  color: #6f7180;
+}
+
+#portfolio-languages a:hover {
+  color: #fff;
 }
 
 @media (max-width: 1199px) {
