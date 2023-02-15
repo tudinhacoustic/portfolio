@@ -3,7 +3,7 @@ const jsonData = {
       "portfolio_languages": {
         "download_cv": "Tải xuống CV",
         "vie": "Tiếng Việt",
-        "eng": "Tiếng Anh"
+        "eng": "English"
       },
       "nav_menu": {
         "home": "Trang chủ",
@@ -130,7 +130,7 @@ const jsonData = {
     "English": {
       "portfolio_languages": {
         "download_cv": "Download CV",
-        "vie": "Vietnamese",
+        "vie": "Tiếng Việt",
         "eng": "English"
       },
       "nav_menu": {
