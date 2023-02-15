@@ -58,7 +58,7 @@ const jsonData = {
       "sumary": {
         "title": "Tóm tắt",
         "name": "TU DINH",
-        "desc": "Với 5+ năm kinh nghiệm là nhà phát triển Back-End, tôi có thể thiết kế và phát triển cấu trúc API/dữ liệu từ ý tưởng ban đầu đến cuối cùng, sản phẩm có thể hoàn thành trau chuối và tỉ mỉ.",
+        "desc": "Với 5+ năm kinh nghiệm là nhà phát triển Back-End, tôi có thể thiết kế và phát triển cấu trúc API/dữ liệu từ ý tưởng ban đầu đến cuối cùng, sản phẩm có thể hoàn thành trau chuốt và tỉ mỉ.",
         "address": "Thống Nhất, Đồng Nai, Việt Nam",
         "phone": "(+84) 975089502",
         "email": "tudinhacoustic@gmail.com"
